@@ -1,5 +1,6 @@
 # Principios-Ionic2
 Visão geral sobre os princípios de Ionic 2.
+Para entender o funcionamento de cada, rodar a aplicação e verificar a execução de cada princípios pela ferramenta de desenvolvedor do navegador (F12).
 
 - Módulos - @NgModule (angular 2): 
 Tendo por exemplo o módulo AppModule (em app.module.ts), criado assim que criarmos um projeto, que possui alguns metadados específicos pra ele: 'declarations' para declarar components, pipes e diretivas que tiver na aplicaão; no 'entryComponents' para declarar apenas as páginas da aplicação; 'imports' serve para importar outros módulos que o módulo precise; 'bootstrap' é o component que vai startar a aplicação; 'providers' que é responsável por registrar os serviços que vão estar disponíveis na aplicação; e o 'exports' que e vai tornar público components, pipes e directivas que você precisa que outros módulos enxerguem.
